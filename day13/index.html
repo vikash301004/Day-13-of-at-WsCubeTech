@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>css selectors</title>
+      <style>
+      .parent{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid black;
+            margin: auto;
+      }
+      .box{
+            width: 400px;
+            height: 50px;
+            border: 1px solid red;
+            font-size: 30px;
+
+      }
+      .box:first-child{
+            background-color: red;
+            color: aqua;
+      }
+      .box:last-child{
+            background-color: green;
+            text-align: center;
+            color: yellow;
+      }
+      p::first-line{
+            color: red;
+            /* background-color: green; */
+      }
+      p::first-letter{
+            color: darkblue;
+            font-size: 50px;
+      }
+      /* .box:nth-child(3n){
+            background-color: red;
+      } */
+      /* .box:nth-child(2n+1){
+            background-color: rgb(0, 195, 255);
+            text-align: center;
+      } */
+      </style>
+</head>
+<body>
+    <div class="parent">
+    <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum, alias a iusto nam ullam, accusantium, id nihil provident corrupti laboriosam nobis! Perferendis, rem reiciendis voluptatem aut magni hic suscipit! Nesciunt ex, aliquid quae non harum perspiciatis quod dolores possimus beatae fugit laboriosam, ipsum ab dicta sint dolorem nisi? At dolorem soluta illo temporibus corrupti alias quod? Eligendi sit, incidunt quisquam odio sed neque omnis cum, error hic beatae laboriosam labore veniam recusandae quos rem temporibus vero. Cum quos at qui fuga corrupti iste similique sint commodi delectus distinctio expedita in, tempora eligendi. Odit obcaecati eligendi sed cupiditate ipsam ad.</p>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+</body>
+</html>
